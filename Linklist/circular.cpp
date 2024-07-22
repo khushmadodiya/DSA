@@ -175,8 +175,7 @@ int main() {
 
     deleteNode(tail, 5);
     print(tail);
-
-
+     
     if(isCircularList(tail)) {
         cout << " Linked List is Circular in nature" << endl;
     }

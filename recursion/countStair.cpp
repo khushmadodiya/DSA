@@ -14,7 +14,7 @@ int countDistinctWayToClimbStair(long long nStairs)
         + countDistinctWayToClimbStair(nStairs-2);
     
     return ans;
-}
+}   
 int main(){
     long long nstairs;
     cin>>nstairs;
